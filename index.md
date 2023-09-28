@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Chulapa on remote
+title: Jackson County Democratic Party
 header_type: hero
 header_img: /assets/img/mnt.png
 subtitle: Starter pack
