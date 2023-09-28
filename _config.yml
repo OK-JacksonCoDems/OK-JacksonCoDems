@@ -140,7 +140,7 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     :  # default["default"]
-  skin         :  "solar"
+  skin         :  "Solar"
   autothemer    :  true # Bool: Use autotheming
 
     
