@@ -24,4 +24,4 @@ On addition, `jekyll-sitemap` generates your sitemap on [./sitemap.xml](./sitema
 
 [Configure as necessary](https://dieghernan.github.io/chulapa/docs/02-config) and replace sample content with your own.
 
-![My image Name](/assets/img/announce/)OctMeeting.png)
+![My image Name](/assets/img/announce/OctMeeting.png)
