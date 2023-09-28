@@ -15,7 +15,7 @@ description             : Oklahoma's Jackson County Democratic Party #default [y
 url                     :     #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
 baseurl                 :     #On Github Pages you may leave it blank. Have a look to: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
 words_per_minute        :     #default[200]
-timezone                :     America/Chicago
+timezone                : #"America/Chicago
 
 # SEO
 og_image                :     #default[author.avatar (see below)] or [github-avatar]
@@ -140,10 +140,9 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     :  # default["default"]
-  skin         :  # Optional predefined skins
+  skin         :  "Graymor" # Optional predefined skins
   autothemer    :  true # Bool: Use autotheming
   vars          :    
-    primary     : lightskyblue #default ["#007bff"] - Bootstrap blue
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 
