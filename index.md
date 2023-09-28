@@ -2,6 +2,7 @@
 layout: default
 title: Chulapa on remote
 header_type: hero
+header_img: /assets/img/mnt.png
 subtitle: Starter pack
 ---
 
