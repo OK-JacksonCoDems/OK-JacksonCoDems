@@ -8,5 +8,6 @@ subtitle: Southwest Oklahoma's oldest political party & the youngest in spirit
 
 # October Monthly Meeting!
 
+***
 
 ![My image Name](/assets/img/announce/OctMeeting.png)

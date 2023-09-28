@@ -139,7 +139,6 @@ googlefonts:
 
 # Theme and colors
 chulapa-skin: 
-  highlight     :  # default["default"]
   skin       :  wandoo
   autothemer  :  # Autotheming may not have any effect
   vars        :    
