@@ -6,7 +6,7 @@ header_img: /assets/img/mnt.png
 subtitle: Southwest Oklahoma's  Oldest political party & the youngest in spirit
 ---
 
-# October Monthly Meeting!
-{: text-align: center;"}
+<h1 style="text-align: center;">October Monthly Meeting!</h3>
+
 
 ![My image Name](/assets/img/announce/OctMeeting.png)
