@@ -140,7 +140,7 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     :  # default["default"]
-  skin         :  "Greymor" # Optional predefined skins
+  skin         :  "greymor" # Optional predefined skins
   autothemer    :  true # Bool: Use autotheming
 
     

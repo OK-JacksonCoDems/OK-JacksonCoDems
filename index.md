@@ -3,7 +3,7 @@ layout: default
 title: Jackson County Democratic Party
 header_type: hero
 header_img: /assets/img/mnt.png
-subtitle: Starter pack
+subtitle: Southwest Oklahoma's  Oldest political party & the youngest in spirit
 ---
 
 # October Monthly Meeting!
