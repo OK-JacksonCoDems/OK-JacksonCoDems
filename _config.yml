@@ -139,12 +139,10 @@ googlefonts:
 
 # Theme and colors
 chulapa-skin: 
-  skin       :  wandoo
+  skin       :  twitter-dim
   autothemer  :  # Autotheming may not have any effect
-  vars        :    
+  vars        :     
 
-
-    
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 
 # Blog pagination: on this site /blog/index.html. https://jekyllrb.com/docs/pagination/
