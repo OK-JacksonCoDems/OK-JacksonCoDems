@@ -21,7 +21,7 @@ timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/con
 og_image                :     #default[author.avatar (see below)] or [github-avatar]
 twitter_site            :     #Avoid @
 author:
-  name                  :  County Chair    # Name Surname Company
+  name                  :  Jackson County Democrats   # Name Surname Company
   avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
   location              :  "Altus, Oklahoma"   # New York, USA 
 #  links:                
@@ -140,7 +140,7 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     :  # default["default"]
-  skin         :  
+  skin         :  "solar"
   autothemer    :  true # Bool: Use autotheming
 
     
