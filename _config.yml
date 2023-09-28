@@ -10,20 +10,20 @@ remote_theme: dieghernan/chulapa
 locale                  :     #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
 title                   : Jackson County Democrats    #default["repository_name"]
 title_separator         :     #default [" | "]
-subtitle                : Oklahoma's Jackson County Democratic Party   #default [your-repository-tagline]  
+subtitle                : Oklahoma's Jackson County Democratic Party    #default [your-repository-tagline]  
 description             : Oklahoma's Jackson County Democratic Party #default [your-repository-tagline]
 url                     :     #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
 baseurl                 :     #On Github Pages you may leave it blank. Have a look to: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
 words_per_minute        :     #default[200]
-timezone                : #"America/Chicago
+timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # SEO
 og_image                :     #default[author.avatar (see below)] or [github-avatar]
 twitter_site            :     #Avoid @
 author:
-  name                  :  County Chair   # Name Surname Company
+  name                  :  County Chair    # Name Surname Company
   avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
-  location              :  "Altus, USA"   # New York, USA 
+  location              :  "Altus, Oklahoma"   # New York, USA 
 #  links:                
 #    - url:  #A link or email: https://twitter.com/jack, mail@example.com
 #      icon: # A Fontawesome 5 code: fab fa-twitter - see https://fontawesome.com/
@@ -140,9 +140,10 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     :  # default["default"]
-  skin         :  "Graymor" # Optional predefined skins
+  skin         :  # Optional predefined skins
   autothemer    :  true # Bool: Use autotheming
   vars          :    
+    primary     : lightskyblue #default ["#007bff"] - Bootstrap blue
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 
@@ -253,3 +254,4 @@ kramdown:
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
