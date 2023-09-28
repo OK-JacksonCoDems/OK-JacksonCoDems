@@ -15,11 +15,7 @@ description             : Chulapa Jekyll Theme starter pack #default [your-repos
 url                     :     #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
 baseurl                 :     #On Github Pages you may leave it blank. Have a look to: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
 words_per_minute        :     #default[200]
-<<<<<<< HEAD
-timezone                : #"America/Chicago
-=======
 timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
->>>>>>> parent of 502cd14 (Initial Commit)
 
 # SEO
 og_image                :     #default[author.avatar (see below)] or [github-avatar]
@@ -144,9 +140,10 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     :  # default["default"]
-  skin         :  "Graymor" # Optional predefined skins
+  skin         :  # Optional predefined skins
   autothemer    :  true # Bool: Use autotheming
   vars          :    
+    primary     : lightskyblue #default ["#007bff"] - Bootstrap blue
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 

@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Jackson County Democratic Party
+title: Chulapa on remote
 header_type: hero
-header_img: /assets/img/mnt.png
-subtitle: 
+subtitle: Starter pack
 ---
 
 Click [**Use this template**](https://github.com/dieghernan/chulapa-101/generate) button above for cloning this repo and get started with [Chulapa Jekyll theme](https://github.com/dieghernan/chulapa).
