@@ -21,7 +21,7 @@ timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/con
 og_image                :     #default[author.avatar (see below)] or [github-avatar]
 twitter_site            :     #Avoid @
 author:
-  name                  :  Jackson County Democrats   # Name Surname Company
+  name                  :  County Chair   # Name Surname Company
   avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
   location              :  "Altus, Oklahoma"   # New York, USA 
 #  links:                
@@ -123,14 +123,8 @@ navbar:
 #      url  : # child url	
 #Social links to be placed on your site footer
 footer:
-  links:
-    - label : Repo on Github # Label
-      icon  : fab fa-github # Fontawesome 5 icon
-      url   : https://github.com/dieghernan/chulapa-101 # A link or email: https://twitter.com/jack, mail@example.com
-    - label: "RSS"
-      icon: "fa fa-rss"
-      url:  "./atom.xml"
-  copyright: # default is © <year> <name> 
+
+  copyright: # default is © <year> Jackson County Democratic Party of Oklahoma 
   
 # C. Theme Settings
 # Google Fonts https://fonts.google.com/, add as many as you need
