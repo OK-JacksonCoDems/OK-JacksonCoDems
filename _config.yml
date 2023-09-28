@@ -99,8 +99,6 @@ navbar:
   nav:
   - title   : Blog # Label
     url     : /blog/ # url	
-  - title   : Cheatsheets
-    url     : /cheatsheets
   - title   : Extras
     child   :
       - title : Tags
@@ -124,7 +122,7 @@ navbar:
 #Social links to be placed on your site footer
 footer:
 
-  copyright: # default is © <year> Jackson County Democratic Party of Oklahoma 
+  copyright: "&copy; 2023 Jackson County Democratic Party of Oklahoma"
   
 # C. Theme Settings
 # Google Fonts https://fonts.google.com/, add as many as you need
@@ -184,19 +182,6 @@ defaults:
       breadcrumb_list   :
         - label: Blog
           url: /blog/
-  -
-    scope:
-      path: ""
-      type: "cheatsheet"
-    values:
-      header_type       : "hero"
-      show_bottomnavs   : true
-      show_sociallinks  : true
-      include_on_search : true
-      show_breadcrumb   : true
-      breadcrumb_list   :
-        - label: Cheatsheets
-          url: /cheatsheets
 
 
 # XX. Other settings - no need to modify
