@@ -95,7 +95,7 @@ navbar:
   brand:
     title   :  Home # Title in navbar
     url     :  # default["url/baseurl"]
-    img     :  # An small image, try 30x30px
+    img     :  /assets/img/JacksonCountyDems.png # An small image, try 30x30px
   nav:
   - title   : Blog # Label
     url     : /blog/ # url	
@@ -111,8 +111,6 @@ navbar:
         url   : /current-skin
   - title   : Docs
     url     : https://dieghernan.github.io/chulapa/docs/01-install
-  - title   : Use this template
-    url     : https://github.com/dieghernan/chulapa-101/generate
 #  - title   : # Label submenu
 #    child:		
 #    - title: # Child label		
@@ -131,7 +129,7 @@ googlefonts:
 
 # Theme and colors
 chulapa-skin: 
-  skin       :  twitter-dim
+  skin       :  lymcha
   autothemer  :  # Autotheming may not have any effect
   vars        :     
 
@@ -141,14 +139,6 @@ chulapa-skin:
 paginate: 4
 paginate_path: "/blog/page:num/"
 paginator_maxnum: 3  #default[3] Custom: max of number to be displayed on the paginator
-
-# Collections https://jekyllrb.com/docs/step-by-step/09-collections/
-collections:
-  cheatsheet:
-    output: true
-    permalink: /cheatsheets/:name
-collections_dir     : 
-permalink           : /:year:month:day_:title/
 
 
 # Defaults https://jekyllrb.com/docs/configuration/front-matter-defaults/
@@ -196,6 +186,7 @@ plugins:
   - jekyll-paginate
   - jekyll-include-cache
   - jekyll-sitemap
+  - jemoji
 
 
 # Exclude these files from production site

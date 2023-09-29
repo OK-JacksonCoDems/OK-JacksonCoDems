@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" >
+	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
+	<link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" />
+	<link href="http://localhost:4000/" rel="alternate" type="text/html" />
+	<updated>2023-09-28T18:49:37-05:00</updated>
+	<id>http://localhost:4000/atom.xml</id>
+	<title>Jackson County Democrats | Oklahoma's Jackson County Democratic Party</title>
+	<subtitle>Oklahoma's Jackson County Democratic Party</subtitle>
+	<author>
+		<name>County Chair</name>
+					
+	</author>
+	<rights>(c) 2023, County Chair</rights>
+	<icon>http://localhost:4000/assets/img/JacksonCountyDems.png</icon>
+	<logo>https://github.com/OK-JacksonCoDems.png</logo><entry>
+		<title>First post!</title>
+		<link href="http://localhost:4000/2023/09/28/first-post.html" rel="alternate" type="text/html" title="First post!"/>
+		<published>2023-09-28T00:00:00-05:00</published>
+		<updated>2023-09-28T00:00:00-05:00</updated>
+		<id>http://localhost:4000/2023/09/28/first-post.html</id>
+		<content type="html" xml:base="http://localhost:4000/2023/09/28/first-post.html">
+		
+  		
+	&lt;p&gt;1 min.&lt;/p&gt;
+			&lt;p&gt;This is the first post, how exciting!&lt;/p&gt;
+
+		</content>
+		
+		<author>
+			<name>County Chair</name></author>
+		<summary type="html">&lt;p&gt;This is the first post, how exciting!&lt;/p&gt;
+</summary>
+		<category term="posts"/>
+		<category term="exciting-stuff"/><category term="random"/>
+	</entry></feed>
