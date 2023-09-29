@@ -6,7 +6,6 @@ header_type: splash
 header_img: /assets/img/volunteer.png
 ---
 # Get In Involved
-{: .blue}
 
 We are always looking for volunteers big or small! The efforts of the the democratic party depend on active membership in & out of election season. To support issues and policy that is important to you requires putting in some time talking to friends, family, neighbors, and your community. 
 

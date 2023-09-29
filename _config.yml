@@ -112,7 +112,7 @@ navbar:
       - title : Docs
         url   : https://dieghernan.github.io/chulapa/docs/01-install
   - title   : Volunteer # Label
-    url     : /volunteer/ # url
+    url     : /volunteer # url
 #  - title   : # Label submenu
 #    child:		
 #    - title: # Child label		
