@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Jackson County Democratic Party official website">
     <title>Jackson County Democratic Party</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .banner-text {
+            position: relative;
+            z-index: 1; /* Ensure text is above the overlay */
+        }
+
+        .banner-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6); /* Dark overlay for better contrast */
+            z-index: 0; /* Place overlay below the text */
+        }
+    </style>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-       <div class="container">
+        <div class="container">
             <a class="navbar-brand" href="#">Jackson County Democrats</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-           <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
@@ -26,20 +46,19 @@
         </div>
     </nav>
 
-    <!-- Banner Image Below Navigation -->
-    <div class="text-center position-relative">
-        <img src="assets/img/jcdp-bkg.jpg" alt="Banner" class="img-fluid" style="width: 100%; height: auto;" />
-        <div class="banner-overlay position-absolute w-100 h-100" style="top: 0; left: 0; background: rgba(0, 0, 0, 0.5);"></div>
-        <div class="banner-text position-absolute" style="top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);">
+    <!-- Banner Image -->
+    <div class="py-5 text-center position-relative" style="background-image: url('assets/img/jcdp-bkg.jpg'); background-size: cover; background-position: center; color: white;">
+        <div class="banner-overlay"></div> <!-- Overlay for better text visibility -->
+        <div class="banner-text">
             <!-- Add the logo here -->
-            <img src="assets/img/OKDEM-logo.png" alt="Logo" class="img-fluid" style="width: 300px; height: auto; margin-bottom: 20px;" />
-            
+            <img src="assets/img/okdem-logo.png" alt="Logo" class="img-fluid" style="width: 300px; height: auto; margin-bottom: 20px;" />
             <h1 style="font-size: 3rem; font-weight: bold;">Jackson County Democrats</h1>
-            <p style="font-size: 1.0rem;">Building a stronger Southwest Oklahoma: supporting local businesses, agriculture, education, and middle-class values. Get involved & join our meetings, volunteer, or run for office to make a difference.</p>
+            <p style="font-size: 1.0rem;">Building a stronger Southwest Oklahoma: supporting education, small businesses, agriculture, national defense, and freedom.</p>
             <a href="#volunteer" class="btn btn-primary btn-lg">Get Involved</a>
         </div>
     </div>
 
+    <!-- About Us Section -->
     <section id="about" class="py-3 bg-light">
         <div class="container">
             <h2>About Us</h2>

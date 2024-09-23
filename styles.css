@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Banner Styles */
+.text-center {
+    position: relative;
+    overflow: hidden; /* Prevent overflow issues */
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1; /* Ensure it's on top of the image */
+}
+
+.banner-text {
+    position: relative;
+    z-index: 2; /* Ensure text is above the overlay */
+    padding: 20px; /* Add some padding for better spacing */
+}
+
+
+/* Responsive Styles */
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 576px) {
+    .banner-text h1 {
+        font-size: 1.8rem; /* Smaller font size for mobile */
+    }
+
+    .banner-text p {
+        font-size: 0.9rem; /* Smaller paragraph font size */
+    }
+
+    .banner-text img {
+        max-width: 80%; /* Adjust logo size for mobile */
+        margin-bottom: 20px; /* Space between logo and title */
+    }
+}
