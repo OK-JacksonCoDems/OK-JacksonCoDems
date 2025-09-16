@@ -24,6 +24,17 @@
             background: rgba(0, 0, 0, 0.6);
             z-index: 0;
         }
+
+        /* Specific style for the new banner to ensure text is readable over the image */
+        .troy-green-banner .banner-overlay {
+            background: rgba(0, 0, 0, 0.4); /* Slightly lighter overlay for the new graphic */
+        }
+
+        .troy-green-banner .banner-text h1,
+        .troy-green-banner .banner-text p,
+        .troy-green-banner .banner-text .btn {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow for better readability */
+        }
     </style>
 </head>
 
@@ -110,16 +121,13 @@
         </div>
     </section>
 
-    <div class="py-5 text-center position-relative"
-        style="background-image: url('assets/img/jcdp-bkg.jpg'); background-size: cover; background-position: center; color: white;">
+    <div class="py-5 text-center position-relative troy-green-banner"
+        style="background-image: url('https://github.com/OK-JacksonCoDems/OK-JacksonCoDems/blob/master/assets/img/TroyGreenBanner.jpg?raw=true'); background-size: cover; background-position: top center; color: white; min-height: 400px;">
         <div class="banner-overlay"></div>
         <div class="banner-text">
-            <img src="assets/img/okdem-logo.png" alt="Logo" class="img-fluid"
-                style="width: 300px; height: auto; margin-bottom: 20px;" />
-            <h1 style="font-size: 3rem; font-weight: bold;">Jackson County Democrats</h1>
-            <p style="font-size: 1.0rem;">Building a stronger Southwest Oklahoma: supporting education, small
-                businesses, agriculture, national defense, and freedom.</p>
-            <a href="#volunteer" class="btn btn-primary btn-lg">Get Involved</a>
+            <h1 style="font-size: 3rem; font-weight: bold;">Troy Green for Senate</h1>
+            <p style="font-size: 1.2rem; max-width: 800px; margin: 0 auto;">"Built, Not Bought" - A fighter for working families, reduced medical debt, and fiscal transparency. Learn more about Troy Green's vision for Oklahoma.</p>
+            <a href="https://troyforok.com/" target="_blank" class="btn btn-primary btn-lg mt-3">Visit TroyForOK.com</a>
         </div>
     </div>
 
