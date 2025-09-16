@@ -12,6 +12,14 @@
             margin-top: 2rem;
             margin-bottom: 2rem;
         }
+        .card-header a {
+            color: white;
+            text-decoration: none;
+            display: block;
+        }
+        .card-header a:hover {
+            color: #ccc;
+        }
     </style>
 </head>
 <body>
@@ -40,20 +48,76 @@
         <h1 class="text-center">Agendas & Minutes</h1>
         <hr>
 
-        <div class="card mb-3">
+        <div class="card mb-4 border-primary">
             <div class="card-header bg-primary text-white">
-                <h5 class="mb-0">Meeting: September 16, 2025</h5>
+                <h4 class="mb-0">Current Meeting: September 16, 2025</h4>
             </div>
             <div class="card-body">
-                <p><strong>Agenda:</strong></p>
-                <p>Here you can paste the text of the meeting agenda, or a summary.</p>
-                <p><strong>Minutes:</strong></p>
-                <p>Once the meeting is over, replace this text with the official meeting minutes.</p>
-                <a href="#" class="btn btn-secondary">Download PDF</a>
+                <h5 class="card-title">Agenda</h5>
+                <p>Welcome to our meeting. The agenda includes a review of our community outreach efforts and planning for the upcoming voter registration drive. We will also be holding a vote for a new county officer.</p>
+                <a href="#" class="btn btn-primary">Download Agenda (PDF)</a>
             </div>
         </div>
-        
-        </div>
+
+        <h3 class="mt-5">Previous Meetings</h3>
+        <hr>
+
+        <div id="previousMeetingsAccordion">
+            
+            <div class="card">
+                <div class="card-header bg-dark" id="heading2025">
+                    <h5 class="mb-0">
+                        <a href="#" class="btn-block" data-toggle="collapse" data-target="#collapse2025" aria-expanded="true" aria-controls="collapse2025">
+                            2025
+                        </a>
+                    </h5>
+                </div>
+                <div id="collapse2025" class="collapse show" aria-labelledby="heading2025" data-parent="#previousMeetingsAccordion">
+                    <div class="card-body">
+                        <div class="card mb-3">
+                            <div class="card-header">August 2025 Meeting</div>
+                            <div class="card-body">
+                                <h6>Agenda & Minutes</h6>
+                                <p>This is a summary of the August meeting minutes, including motions made and votes taken.</p>
+                                <a href="#" class="btn btn-secondary">Download Minutes (PDF)</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card">
+                            <div class="card-header">July 2025 Meeting</div>
+                            <div class="card-body">
+                                <h6>Agenda & Minutes</h6>
+                                <p>This is a summary of the July meeting minutes.</p>
+                                <a href="#" class="btn btn-secondary">Download Minutes (PDF)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header bg-dark" id="heading2024">
+                    <h5 class="mb-0">
+                        <a href="#" class="btn-block collapsed" data-toggle="collapse" data-target="#collapse2024" aria-expanded="false" aria-controls="collapse2024">
+                            2024
+                        </a>
+                    </h5>
+                </div>
+                <div id="collapse2024" class="collapse" aria-labelledby="heading2024" data-parent="#previousMeetingsAccordion">
+                    <div class="card-body">
+                        <div class="card mb-3">
+                            <div class="card-header">December 2024 Meeting</div>
+                            <div class="card-body">
+                                <h6>Agenda & Minutes</h6>
+                                <p>Summary of the December 2024 meeting.</p>
+                                <a href="#" class="btn btn-secondary">Download Minutes (PDF)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> </div>
 
     <footer class="bg-dark text-white text-center py-4">
         <p>© 2025 Jackson County Democratic Party</p>
