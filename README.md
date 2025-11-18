@@ -1,42 +1,45 @@
-OK-JacksonCoDems Website
+# OK-JacksonCoDems Website
 
-🇺🇸 Project Overview
+## 🇺🇸 Project Overview
 
-This repository hosts the source code for the official static website of the Oklahoma Jackson County Democratic Party (OK-JacksonCoDems).
+This repository hosts the source code for the official **static website** of the **Oklahoma Jackson County Democratic Party** (`OK-JacksonCoDems`).
 
 The goal of this project is to provide a public, easily accessible resource for local Democrats, voters, and interested citizens to find key information about the party, upcoming events, official documents, and contact details.
 
-🌟 Key Features
+---
 
-    Informational Hub: Provides general information about the Jackson County Democratic Party.
+## 🌟 Key Features
 
-    Agendas and Minutes: Dedicated section (agendas.html and agendas/) for publishing meeting agendas and other official documents.
+* **Informational Hub:** Provides general information about the Jackson County Democratic Party.
+* **Agendas and Minutes:** Dedicated section (`agendas.html` and `agendas/`) for publishing meeting agendas and other official documents.
+* **Simple & Accessible:** Built with standard HTML and CSS for quick loading and broad accessibility.
+* **Copyable:** Designed to be easily copied and adapted for use by **any Precinct or other County Party**.
+* **Easily Deployable:** Simple to host and deploy using platforms like **GitHub Pages**, **Cloudflare Pages**, or **self-hosting**.
 
-    Simple & Accessible: Built with standard HTML and CSS for quick loading and broad accessibility.
+---
 
-    Copyable for any Precinct or other County Party
-
-    Easily deployable with Github, Cloudflare, or self-hosting
-
-💻 Technical Stack
+## 💻 Technical Stack
 
 The project utilizes a minimal, standard web stack:
 
-    HTML5 (Structure and content)
+* **HTML5** (Structure and content)
+* **CSS3** (Styling)
 
-    CSS3 (Styling)
+> **Note:** The site's original repository structure was initialized from the `dieghernan/chulapa-101` template, but the code has been **re-coded and refactored**. We are exploring the process of unforking the repository to remove potential confusion about the codebase origin.
 
-The repository structure suggests the site initialized from the dieghernan/chulapa-101 template, but we have re-coded everything since then and
-exploring unforking not to create any confusion.
+---
 
-📂 Repository Structure
+## 📂 Repository Structure
 
 The core files and folders of the project are:
 
-OK-JacksonCoDems/
-├── agendas/            # Contains official meeting agendas (e.g., PDF, HTML files)
-├── assets/
-│   └── img/            # Stores images, logos, and visual assets
-├── agendas.html        # Page dedicated to listing or displaying meeting agendas
-├── index.html          # The main homepage of the website
-└── styles.css          # Primary CSS file for site-wide styling
+```tree
+.
+├── agendas
+│   └── ... (Documents)
+├── assets
+│   └── img
+│       └── ... (Images)
+├── agendas.html
+├── index.html
+└── styles.css
